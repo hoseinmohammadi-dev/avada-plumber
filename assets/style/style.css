@@ -337,7 +337,7 @@ main {
                             >h5 {
                                 font-size: 20px;
                                 color: #009fe3;
-                                margin:20px 0 5px;
+                                margin: 20px 0 5px;
                             }
 
                         }
@@ -346,4 +346,47 @@ main {
             }
         }
     }
+
+    .section-three {
+        margin-top: 30vh;
+
+        >figure {
+            position:relative;
+            >img {
+                width: 100%;
+            }
+
+            >figcaption {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                position: absolute;
+                top: 50%;left: 50%;
+                transform: translate(-50%, -50%);
+                color:#343434;
+
+                *{
+                    margin-block: 10px;
+                }
+
+                >h3{
+                    font-size: 60px;
+                }
+                >p{
+                    font-size: 32px;
+                }
+                >a{
+                    width: 300px;
+                    border: 2px solid #3d66ae;
+                    background-color: #fff;
+                    padding: 10px;
+
+                    &:hover{
+                       color: white;
+                    }
+                }
+            }
+        }
+    }
+
 }
