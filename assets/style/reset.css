@@ -1,0 +1,52 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: "Guton";
+    src: url(../font/Guton-Medium.ttf);
+}
+
+body{
+    font-family: "Guton";
+    color: #4f4f4f;
+}
+
+h1{
+    font-size: 60px;
+}
+
+p{
+    font-size: 22px;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+
+    &:visited {
+        color: inherit;
+    }
+}
+
+li {
+    list-style-type: none;
+}
+
+.btn {
+    width: 200px;
+    font-size: 18px;
+    color: white;
+    background-color: #009fe3;
+    border-radius: 35px;
+    padding: 10px 25px;
+    transition: .4s;
+    text-align: center;
+    text-transform: uppercase;
+
+    &:hover{
+        background-color: #3d66ae;
+    }
+}
