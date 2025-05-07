@@ -271,24 +271,77 @@ main {
         }
 
         >div {
-            background-color: rgb(152, 142, 142);
+            border: rgb(152, 142, 142);
             height: 100vh;
             display: flex;
-
-            * {
-                border: 1px solid black;
-            }
 
             >div {
                 width: 50%;
                 height: 100%;
 
                 &:nth-of-type(1) {
-                    
+                    padding: 40px;
+
+                    >ul {
+                        >li {
+                            >h4 {
+                                color: #3d66ae;
+                                font-size: 28px;
+                                margin: 50px 0 20px;
+                            }
+
+                            >p {
+                                font-size: 16px;
+                                width: 75%;
+                                color: #343434;
+                            }
+
+                            .change-color {
+                                color: #009fe3;
+                            }
+                        }
+                    }
                 }
 
                 &:nth-of-type(2) {
-                    
+                    padding: 40px;
+
+                    >figure {
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        align-items: start;
+                        margin-top: 50px;
+
+                        >img {
+                            width: 450px;
+                            border-radius: 20px;
+                        }
+
+                        >figcaption {
+                            width: 400px;
+                            position: relative;
+                            left: 150px;
+                            top: -70px;
+                            background-color: #fff;
+                            border-radius: 20px;
+                            padding: 20px;
+                            box-shadow: 2px 2px 40px rgba(97, 91, 91, 0.454);
+
+
+                            >P {
+                                width: 90%;
+                                font-size: 14px;
+                            }
+
+                            >h5 {
+                                font-size: 20px;
+                                color: #009fe3;
+                                margin:20px 0 5px;
+                            }
+
+                        }
+                    }
                 }
             }
         }
