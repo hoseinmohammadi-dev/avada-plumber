@@ -351,7 +351,8 @@ main {
         margin-top: 30vh;
 
         >figure {
-            position:relative;
+            position: relative;
+
             >img {
                 width: 100%;
             }
@@ -361,28 +362,93 @@ main {
                 flex-direction: column;
                 align-items: center;
                 position: absolute;
-                top: 50%;left: 50%;
+                top: 50%;
+                left: 50%;
                 transform: translate(-50%, -50%);
-                color:#343434;
+                color: #343434;
 
-                *{
+                * {
                     margin-block: 10px;
                 }
 
-                >h3{
+                >h3 {
                     font-size: 60px;
                 }
-                >p{
+
+                >p {
                     font-size: 32px;
                 }
-                >a{
+
+                >a {
                     width: 300px;
                     border: 2px solid #3d66ae;
                     background-color: #fff;
                     padding: 10px;
 
-                    &:hover{
-                       color: white;
+                    &:hover {
+                        color: white;
+                    }
+                }
+            }
+        }
+    }
+
+    >nav {
+        width: 100%;
+        height: 100dvh;
+        display: flex;
+        justify-content: center;
+        margin-top: 10vh;
+    
+        >section {
+            width: 100%;
+            width: 80%;
+            /* border: 4px solid black; */
+            display: flex;
+            align-items: start;
+            justify-content: space-between;
+
+            >ul {
+                width: 18%;
+                height: 100%;
+                /* border: 1px solid black; */
+
+                
+                >li{
+                    width: 100%;
+                    display: flex;
+                    margin-bottom: 10px;
+
+
+                    &:nth-of-type(1){
+                        margin-bottom: 30px;
+                    }
+                    
+                    >img{
+                        width: 200px;
+                    }
+
+                    >p{
+                        font-size: 16px;
+                    }
+
+                    >i{
+                        margin-right: 15px;
+                        color: #3d66ae;
+                    }
+
+                    a{
+                        font-size: 15px;
+                        transition: .4s;
+
+                        &:hover{
+                            color: #3d66ae;
+                        }
+                    }
+
+                    >h3{
+                        font-size: 32px;
+                        color: #3d66ae;
                     }
                 }
             }
