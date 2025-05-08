@@ -1,10 +1,9 @@
 # avada-plumber
 🎨 Avada UI Clone - HTML &amp; CSS Only This is a simple frontend project where I’m recreating the UI of the Avada website using only HTML and CSS — no JavaScript, no frameworks. A practice project to sharpen my layout and styling skills.
 
+![Image](https://github.com/user-attachments/assets/55200eb0-2fbe-48aa-bdc9-f61a4bdf328d)
 
-<!-- ![preview](./screenshots/preview.jpg) -->
-
-- [🔗 Demo Project]([https://hoseinmohammadi-dev.github.io/rtl-basic-project/](https://hoseinmohammadi-dev.github.io/avada-plumber/))
+- [🔗 (https://hoseinmohammadi-dev.github.io/avada-plumber/)]
 
 - Developed by **Hosein Mohammadi** ⚡️
 
